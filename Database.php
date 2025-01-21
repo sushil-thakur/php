@@ -23,7 +23,7 @@ class Database{
             die("Query failed: " . $e->getMessage());
         }
 
-        return $this;
+        return $statement;
     }
 }
 ?>

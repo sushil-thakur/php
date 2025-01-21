@@ -2,9 +2,10 @@
 include 'Database.php';
 include 'utils.php';
 $db =new Database();
-$statement = $db->query("SELECT * FROM notes");
-$notes = $statement->fetchAll();
-dd($db);
+$statement = $db->query("SELECT * FROM note");
+$note = $statement->fetchAll();
+
+dd($note);
 
 
 $navTitle ="Notes";
