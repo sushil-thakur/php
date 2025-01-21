@@ -6,7 +6,7 @@ class Database{
         $connectionString = "mysql:host=localhost;dbname=crud;port=3306";
 
         try {
-            $this->connection = new PDO($connectionString, "root", "", [
+            $this->connection = new PDO($connectionString, "root", "root", [
                 PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
             ]);
