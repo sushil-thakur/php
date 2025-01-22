@@ -3,9 +3,9 @@ include 'Database.php';
 include 'utils.php';
 $db =new Database();
 $statement = $db->query("SELECT * FROM note");
-$note = $statement->fetchAll();
+$notes = $statement->fetchAll();
 
-dd($note);
+// dd($notes);
 
 
 $navTitle ="Notes";

@@ -14,7 +14,7 @@
 
   <main>
     <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-   <?php foreach($note as $note): ?>
+   <?php foreach($notes as $note): ?>
       <P><?=$note['body']?></P>
       <?php endforeach; ?>
       
